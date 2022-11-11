@@ -1,0 +1,37 @@
+git push origin <branch name>
+git pull origin <branch name>
+git branch -d <branch name> //delete branch
+git branch <btanch name> //branch create
+git checkout <branch name> //switch branch
+git reset --hard HEAD^ //delete from working directory
+git reset --soft HEAD^ //local repo to staging area
+git reset --hard //rollback delete file
+git reset HEAD^ //local repo to working directory
+git reset HEAD~ //local repo to working directory
+mkdir <folder name> //create folder
+cd .. //directory change
+pwd //present working directory
+cd <folder name> //enter this folder
+git log --oneline --graph --decorate --all //for graphical view
+git fetch //updates your remote-tracking branches.brings update from remote/github 
+to local repo.
+git pull //update all.brings update from remote repo to working
+directory.
+pull=fetch+merge
+git push --set-upstream origin <branch>
+git status
+git merge <branch name>
+git push -u origin <branch name>
+ls -a
+start <file name>
+touch <file name> //create new file
+git remote add origin <http address>
+git rm <file name> //delete and stage
+
+echo "# BS-Csharp-Basic" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/refatulfahad/BS-Csharp-Basic.git
+git push -u origin main
