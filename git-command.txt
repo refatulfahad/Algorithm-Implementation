@@ -27,6 +27,7 @@ start <file name>
 touch <file name> //create new file
 git remote add origin <http address>
 git rm <file name> //delete and stage
+git add --all //add all folder
 
 echo "# BS-Csharp-Basic" >> README.md
 git init
