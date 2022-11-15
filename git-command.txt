@@ -29,6 +29,16 @@ git remote add origin <http address>
 git rm <file name> //delete and stage
 git add --all //add all folder
 
+//remove folder from git repository
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
+
+//remove file from git repository
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+git push origin branch_name
+
 echo "# BS-Csharp-Basic" >> README.md
 git init
 git add README.md
